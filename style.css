@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 82px;
+    padding: 18px 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.navbar button{
+    background-color: #F1A900;
+    color: black;
+    width: 192px;
+    height: 82px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+    border: none;
+}
+.navbar p{
+    margin: 0 4px 0 7px;
+}
+.navbar2{
+    background-color: #222222;
+    align-items: center;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+}
+.navbar2 ul{
+    gap: 101px;
+    display: flex;
+    justify-content: center;
+}
+.navbar2 ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar2 img{
+    margin-left: 6px;
+}
+main{
+    background-image: url("image 5 (1).png");
+    width: 100%;
+    height: 797px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navmain{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+.navmain button{
+    margin: 349px 0 31px;
+    width: 235px;
+    height: 73px;
+    font-size: 40px;
+    font-weight: 700;
+    border: 0;
+}
+.navmain button:nth-child(1){
+    background-color: #F1A900;
+}
+.navmain button:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.navmain2{
+    background-color: #F1A90054;
+    width: 966px;
+    height: 202px;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0 auto 142px;
+    padding: 57px 34px;
+    color: white;
+    border-radius: 10px;
+}
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    padding: 28px 57px;
+    justify-content: space-between;
+}
+.fpho{
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
